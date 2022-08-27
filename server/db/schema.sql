@@ -1,0 +1,10 @@
+CREATE DATABASE cowList;
+
+USE cowList;
+
+CREATE TABLE cows (
+  id INT AUTO_INCREMENT,
+  name VARCHAR(255) NOT NULL,
+  description VARCHAR(255) NOT NULL,
+  PRIMARY KEY(id)
+);
